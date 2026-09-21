@@ -6,60 +6,60 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 66.81.247.155
-  port: 2083
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  server: 31.59.46.140
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: testmiKOnIM.HyDrYmhmDamyN7.wOrKers.dEv
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /OAZko425kNFF0PpQ
+    path: '%2Ftravel%2Fintro%3Fed%3D2560'
     headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 185.170.166.123
+  server: 46.8.200.91
   port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
+  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /
+    path: /cdn/v3/live
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
-  server: 45.131.7.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  server: 31.58.76.68
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
+    path: '%2Fnew%2Fdh%3Fed%3D2560'
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   type: vless
-  server: 172.66.44.124
-  port: 8443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  server: 188.130.207.30
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
