@@ -5,15 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 78957fc5-430a-42d1-9a2d-2661326f4d5f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: natarskebesooyat-navmiad.mgwarrior.ir
-- name: 🇸🇪 SE 02 - xiaohe
   type: ss
   server: 70.34.212.124
   port: 8388
@@ -26,13 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇪 SE 01 - xiaohe
-  - 🇸🇪 SE 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇪 SE 01 - xiaohe
-  - 🇸🇪 SE 02 - xiaohe
 rules:
 - MATCH,PROXIES
