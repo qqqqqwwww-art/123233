@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
-  type: ss
-  server: location15.cpanel-host16.ir
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
+  type: vless
+  server: 104.21.77.142
+  port: 2096
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: courses.mftplus.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: courses.mftplus.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
